@@ -29,7 +29,7 @@ WebSocket - a pure perl implementation of WebSockets RFC 6455
 
   use WebSocket;
   our $websocket = new WebSocket 'ws://localhost:8080/';
-  $websocket->send("Perl Roxors");
+  $websocket->send("Perl r0x0rs");
   $websocket->close;
 
 =head1 DESCRIPTION
@@ -43,7 +43,7 @@ None by default.
 
 =head1 SEE ALSO
 
-   RFC 6455 L<https://tools.ietf.org/html/rfc6455>
+RFC 6455 L<https://tools.ietf.org/html/rfc6455>
 
 =head1 AUTHOR
 
